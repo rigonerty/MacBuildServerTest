@@ -1,0 +1,55 @@
+.FeaturedCard{
+    display: flex;
+    width: 100%;
+    margin-bottom: 1.31vw;
+    margin-top: 2.7vw;
+    >img{
+        width: 21.36vw;
+        border-radius: 0.53vw;
+    }
+    >div{
+        margin-left: 1.57vw;
+        h2{
+            font-size: 2.61vw;
+        }
+        p:nth-child(2){
+            margin: 1.6vw 0;
+            >span{
+                color:white;
+                background: #142850;
+                padding: 0.2vw 1vw;
+                margin-right: 2.26vw;
+                border-radius: 1.39vw;
+            }
+            color: #8695A4;
+        }
+    }
+    @media screen and (max-width:450px){
+        flex-direction: column;
+        margin-bottom: 4.54vw;
+    
+        >img {
+            width: 100%;
+            border-radius: 6px;
+        }
+    
+        >div {
+            margin-left: 0;
+            margin-top: 4.54vw                                                             ;
+            h2 {
+                font-size: 6.4vw;
+            }
+    
+            p:nth-child(2) {
+                margin: 4.27vw 0;
+    
+                >span {
+
+                    padding: 0.2vw 3.2vw;
+                    margin-right: 5.87vw;
+                    border-radius: 16px;
+                }
+            }
+        }
+    }
+}

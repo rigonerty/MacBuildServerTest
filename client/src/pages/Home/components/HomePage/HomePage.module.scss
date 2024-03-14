@@ -1,0 +1,13 @@
+.HomePage{
+    >div{
+        padding-right: 13vw;
+        padding-left: 13vw;
+    }
+    @media screen and (max-width:450px) {
+        >div {
+            padding-right: 6.4vw;
+            padding-left: 6.4vw;            
+        }
+
+    }
+}

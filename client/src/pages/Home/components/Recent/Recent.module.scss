@@ -1,0 +1,35 @@
+.Recent{
+    background: #EDF7FA;
+    padding-top: 2.6vw;
+    padding-bottom: 2.6vw;
+    >div{
+        margin-bottom: .5vw;
+        display: flex;
+        justify-content: space-between;
+        >p{
+            font-size: 1.91vw;
+        }
+        >a{
+            color:#00A8CC;
+            text-decoration: none;
+        }
+    }
+    @media screen and (max-width:450px) {
+        padding-top: 4vw;
+        padding-bottom: 10.14vw;
+
+        >div {
+            margin-bottom: 4vw;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            >p {
+                font-size: 4.8vw;
+            }
+
+            >a {
+                display: none;
+            }
+    }
+    }
+}

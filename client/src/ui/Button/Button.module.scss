@@ -1,0 +1,19 @@
+.Button{
+    padding: .9vw 1.8vw 1vw 1.8vw;
+    border-radius: 0.18vw;
+    cursor: pointer;
+    background: #FF6464;
+    font-size: 1.8vw;
+    color:white;
+    border: none;
+
+    @media (max-width:450px){
+        padding: 2.4vw 5.34vw 2.4vw 5.34vw;
+        font-size: 5.34vw;
+        border-radius: 2px;
+    }
+}
+.Button:disabled{
+        background: #a84141;
+        color: rgb(143, 143, 143);
+    }

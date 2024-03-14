@@ -1,0 +1,26 @@
+.Navbar{
+    padding: 2.1vw 0;
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    >li{
+        list-style: none;
+        color: black;
+        font-size: 1.4vw;
+        font-weight: 500;
+        cursor: pointer;
+        margin-right: 5.21vw;
+    }
+    svg{
+        display: none;
+    }
+    @media screen and (max-width:450px){
+        padding: 4vw;
+        li{
+            display: none;
+        }
+        svg{
+            display: block;
+        }
+    }
+}

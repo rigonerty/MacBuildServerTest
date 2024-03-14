@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Heebo";
+    src: local("Heebo"),
+        url("../fonts/Heebo/Heebo-VariableFont_wght.ttf") format("truetype");
+    font-weight: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color:#21243D;
+    font-size: 1.39vw;
+    @media screen and (max-width:450px) {
+        font-size: 4.27vw;
+    }
+    font-family: "Heebo";
+}

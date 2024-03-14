@@ -1,0 +1,31 @@
+.RecentCard{
+    padding: 2.09vw;
+    flex: 0 0 auto;
+    width: 36.29vw;
+    background: white;
+    >h2{
+        font-size: 2.26vw;
+    }
+    >p{
+        margin-top: 1.2vw;
+        span{
+            margin: 0 2.26vw;
+        }
+    }
+    @media screen and (max-width:450px){
+        padding: 5.87;
+        width: 100%;
+        margin-bottom: 4.55vw;
+        >h2 {
+            font-size: 5.87vw;
+        }
+    
+        >p {
+            margin-top: 5.07vw;
+    
+            span {
+                margin: 0 6.4vw;
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.Register{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    padding: 0 13vw;
+    .submitDiv {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    @media screen and (max-width:450px) {
+        padding: 0 6.4vw;
+    }
+}

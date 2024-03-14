@@ -1,0 +1,109 @@
+.InputForm{
+    >label{
+        font-size: 1.1vw;
+        >div{
+            position: relative;
+            >input{
+                border-radius: .18vw;
+                border: 1px solid rgb(88, 88, 88);
+                display: block;
+                font-size: 1.1vw;
+                width: 100%;
+                padding: 1vw 1.8vw;
+                margin: .4vw 0;
+            }
+            >input:focus {
+                outline: #21243D solid 2px;
+            }
+            >i{
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                right: .5vw;
+                top: 50%;
+                transform: translateY(-50%);
+                >img{
+                    height: 2vw;
+                    width: 2vw;
+                }
+            }  
+            @media screen and (max-width:450px) {
+                >input{
+                    font-size: 4.67vw;
+                }
+                >i {
+                    right: 1.5vw;
+                    top: 50%;
+                    transform: translateY(-50%);
+
+                    >img {
+                        height: 6vw;
+                        width: 6vw;
+                    }
+                }
+            }
+        }
+
+    }
+    >div{
+        height: 2vw;      
+        >span{
+            font-family: "Heebo", sans-serif;
+            color: red;
+            margin-left: 1vw;
+            font-size: 1.2vw;
+        }
+        @media screen and (max-width:450px){
+            height: 10.6vw;
+            >span{
+                font-size: 3.8vw;
+                margin-bottom: 1vw;
+            }
+            
+        }  
+    }
+}
+.InputForm.InputFormError{
+    input{
+        border: 1px solid red;
+    }
+}
+@media screen and (max-width:1200px) {
+    .InputForm {
+        >label {
+            font-size: 1em;
+            >input {
+                border-radius: .3em;
+                border: 1px solid rgb(88, 88, 88);
+                padding: .5em;
+                font-size: 1em;
+                margin: .2em 0;
+            }
+
+
+            >i {
+                right: .5em;
+
+                >img {
+                    height: 1.5em;
+                    width: 1.5em;
+                }
+            }
+        }
+
+        >div {
+            font-size: .7em;
+
+            >span {
+                margin-left: 1em;
+            }
+        }
+    }
+
+    .InputForm.InputFormError {
+        input {
+            border: 1px solid red;
+        }
+    }
+}
